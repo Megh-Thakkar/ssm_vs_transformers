@@ -10,11 +10,11 @@ Code for the course project benchmarking the capabilities of Mamba as compared t
 
 We have divided the code repository into three folders for easier understanding and usage. Each of the folders contains the corresponding README files as well.
 
-1. [mamba_training]: Code for instruction-tuning the Mamba models. We also provided the reformatted dataset json files compatible with the code.
-2. [pythia_training]: Training script for instruction-tuning Pythia models on the same datasets as Mamba.
-3. [evaluation]: Contains a copy of the lm-evaluation-harness and a README detailing how to use it for the Mamba and Pythia checkpoints generated from the above training runs.
+1. [mamba_training](https://github.com/Megh-Thakkar/ssm_vs_transformers/tree/master/mamba_training): Code for instruction-tuning the Mamba models. We also provided the reformatted dataset json files compatible with the code.
+2. [pythia_training](https://github.com/Megh-Thakkar/ssm_vs_transformers/tree/master/pythia_training): Training script for instruction-tuning Pythia models on the same datasets as Mamba.
+3. [evaluation](https://github.com/Megh-Thakkar/ssm_vs_transformers/tree/master/evaluation): Contains a copy of the lm-evaluation-harness and a README detailing how to use it for the Mamba and Pythia checkpoints generated from the above training runs.
 
-We also provide the [requirements] file to setup the environment used. The environment can be setup by using 
+We also provide the [requirements](https://github.com/Megh-Thakkar/ssm_vs_transformers/tree/master/requirements.txt) file to setup the environment used. The environment can be setup by using 
 
 ```
 $ pip install -r requirements.txt
