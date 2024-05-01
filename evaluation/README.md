@@ -6,7 +6,7 @@ This folder contains a copy for lm-evaluation-harness for reference. After insta
 For evaluating Mamba base models and instruction-tuned checkpoints:
 
 ```
-$ lm_eval --model mamba_ssm --tasks hellaswag --model_args pretrained=/path/to/pythia_checkpoint --device cuda:0 --batch_size 32 --num_fewshot <if_n_shot_eval> --output_path /path/to/output.jsonl
+$ lm_eval --model mamba_ssm --tasks hellaswag --model_args pretrained=/path/to/mamba_checkpoint --device cuda:0 --batch_size 32 --num_fewshot <if_n_shot_eval> --output_path /path/to/output.jsonl
 ```
 
 Similarly to evaluate Pythia base models and instruction-tuned checkpoints:
