@@ -1,7 +1,7 @@
 # Mamba Trainer
 ## Code for instruction-tuning Mamba models
 
-This folder contains the required files for instruction-tuning Mamba models. We also provide the [Dolly15k] and [LIMA] datasets in the required jsonl format compatible with the code. To run the instruction-tuning, use the following example command:
+This folder contains the required files for instruction-tuning Mamba models. We also provide the [Dolly15k](https://github.com/Megh-Thakkar/ssm_vs_transformers/blob/master/mamba_training/data/dollybricks.jsonl) and [LIMA](https://github.com/Megh-Thakkar/ssm_vs_transformers/blob/master/mamba_training/data/lima.jsonl) datasets in the required jsonl format compatible with the code. To run the instruction-tuning, use the following example command:
 ```
 $ python train_mamba.py  --model state-spaces/mamba-2.8b-slimpj --tokenizer  EleutherAI/gpt-neox-20b  --learning_rate 5e-5 --batch_size  6  --gradient_accumulation_steps  2  --data_path  ./data/lima.jsonl  --num_epochs  3  --output_dir=/path/out
 ```
